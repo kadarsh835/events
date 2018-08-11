@@ -240,7 +240,7 @@ main {
 	display: block;
 	flex: none;
 	margin: 0 auto;
-	width: 250px;
+	min-width: 100%;
 	filter: grayscale(.5);
 	transition: filter 0.3s;
 	pointer-events: none;
