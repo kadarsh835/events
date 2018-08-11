@@ -20,7 +20,7 @@ main{
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
-	background-color:rgba(245, 222, 179, .66);
+	background:rgba(133, 107, 181, 0.86);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -117,6 +117,7 @@ main {
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
+	color:#fff;
 }
 
 .info {
@@ -183,7 +184,7 @@ main {
 }
 
 .box__title-inner[data-hover] {
-	-webkit-text-stroke: 2px #000;
+	-webkit-text-stroke: 2px #fff;
 	text-stroke: 2px #000;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
@@ -240,7 +241,7 @@ main {
 	flex: none;
 	margin: 0 auto;
 	max-width: 100%;
-	filter: grayscale(1);
+	filter: grayscale(.5);
 	transition: filter 0.3s;
 	pointer-events: none;
 }
