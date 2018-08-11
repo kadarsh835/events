@@ -280,6 +280,7 @@
         openItem(contentItem) {
 			var singleProjectContent = $('.cd-project-content');
 			singleProjectContent.addClass('scroll');
+			singleProjectContent.scrollTop(0);
             if ( this.isPreviewOpen ) return;
             this.isPreviewOpen = true;
             allowTilt = false;
