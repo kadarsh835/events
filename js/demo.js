@@ -278,6 +278,8 @@
             this.overlay.DOM.close.addEventListener('click', () => this.closeItem());
         }
         openItem(contentItem) {
+			var singleProjectContent = $('.cd-project-content');
+			singleProjectContent.addClass('scroll');
             if ( this.isPreviewOpen ) return;
             this.isPreviewOpen = true;
             allowTilt = false;
@@ -324,6 +326,8 @@
             }
         }
         closeItem() {
+			var singleProjectContent = $('.cd-project-content');
+			singleProjectContent.removeClass('scroll');
             if ( !this.isPreviewOpen ) return;
             this.isPreviewOpen = false;
             this.overlay.hide();
