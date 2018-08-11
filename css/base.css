@@ -240,7 +240,7 @@ main {
 	display: block;
 	flex: none;
 	margin: 0 auto;
-	max-width: 100%;
+	width: 250px;
 	filter: grayscale(.5);
 	transition: filter 0.3s;
 	pointer-events: none;
@@ -366,7 +366,7 @@ main {
 		align-items: center;
 		padding: 3rem 3rem 15rem 3rem;
 		grid-row-gap: 2rem;
-		grid-template-columns: repeat(3,calc(100% / 3));
+		grid-template-columns: repeat(2,calc(100% / 2));
 	}
 	.grid__item {
 		margin: 0;
@@ -445,17 +445,15 @@ main {
 
 @media screen and (min-width: 80em) {
 	.grid {
-		grid-template-columns: repeat(4,25%);
+		grid-template-columns: repeat(2,50%);
 	}
-	.grid__item:nth-child(4n-2) {
+	
+	.grid__item:nth-child(2n) {
 		margin-top: -8rem;
 		margin-bottom: 8rem;
 	}
-	.grid__item:nth-child(4n) {
-		margin-top: -5rem;
-	}
 	.box {
-		margin: 6rem 4.5rem;
+		margin: 4rem 2.5rem;
 	}
 	.box__content {
 		display: block;
