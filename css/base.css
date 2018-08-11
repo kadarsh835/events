@@ -240,9 +240,9 @@ main {
 	display: block;
 	flex: none;
 	margin: 0 auto;
-	min-width: 100%;
-	filter: grayscale(.5);
-	transition: filter 0.3s;
+	width: 100%;
+	filter: grayscale(0.75);
+	transition: filter 1s;
 	pointer-events: none;
 }
 
