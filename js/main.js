@@ -31,10 +31,15 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			$(this).ready(function(){
-
-				$("#main").load("all_events/"+selected_event);
-			})
+			
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById(id).innerHTML=xmlhttp.responseText;
+				}
+			};
+			xmlhttp.open("GET", "all_events/"+selected_event, true);
+			xmlhttp.send();
 			
 
 		}
