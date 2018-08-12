@@ -34,7 +34,7 @@ jQuery(document).ready(function(){
 			$(document).ready(function(){
     // do some html stuff here
 
-    $("#after_load").load("all_events/"+selected_event);
+    $("#main").load("all_events/"+selected_event);
 })
 			
 
