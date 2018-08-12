@@ -27,12 +27,22 @@ jQuery(document).ready(function(){
 		} else if ( $(this).parent('li').prev('li').prev('li').prev('li').is('.current')  && (mq == 'desktop') ) {
 			nextSides(projectsSlider);
 		} else {
-			singleProjectContent.addClass('is-visible');
+			
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			$('main').load("all_events/"+selected_event);
-			$('#after_load').css({ 'z-index' : '2', 'opacity' : '1' });
+			$('#after_load').css({ 'z-index' : '4', 'opacity' : '1' });
+			$("#main").load("all_events/"+selected_event, function(responseTxt, statusTxt, xhr){
+        if(statusTxt == "success"){
+			singleProjectContent.addClass('is-visible');
+           $('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
+		}
+        if(statusTxt == "error"){
+            alert("Error: " + xhr.status + ": " + xhr.statusText);
+		}
+    });
+			//$('main').load("all_events/"+selected_event);
+			
 		}
 	});
 
@@ -42,7 +52,7 @@ jQuery(document).ready(function(){
 		singleProjectContent.removeClass('is-visible');
 		if(checkMQ()!='desktop')
 				projectsContainer.removeClass('remove_scroll');
-		$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
+		
 	});
 
 	//go to next/pre slide - clicking on the next/prev arrow
