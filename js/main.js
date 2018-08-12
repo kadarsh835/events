@@ -32,14 +32,12 @@ jQuery(document).ready(function(){
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
 			
-			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.onreadystatechange = function() {
-				if (this.readyState == 4 && this.status == 200) {
-					document.getElementsByTagName('main').innerHTML=xmlhttp.responseText;
-				}
-			};
-			xmlhttp.open("GET", "all_events/"+selected_event, true);
-			xmlhttp.send();
+			
+			
+				$('#after_load').show();// imageId is id to your gif image div
+				$('#cont').load("all_events/"+selected_event);
+				$('#after_load').hide();// hide the image when example.php is loaded
+				
 			
 
 		}
