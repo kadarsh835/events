@@ -258,7 +258,7 @@
             });
         }
     }
-
+	
     class Grid {
         constructor(el) {
             this.DOM = {el: el};
@@ -277,6 +277,7 @@
             this.overlay = new Overlay();
             this.overlay.DOM.close.addEventListener('click', () => this.closeItem());
         }
+		
         openItem(contentItem) {
 			var singleProjectContent = $('.cd-project-content');
 			singleProjectContent.addClass('scroll');
