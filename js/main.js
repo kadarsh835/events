@@ -30,6 +30,9 @@ jQuery(document).ready(function(){
 			singleProjectContent.addClass('is-visible');
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
+			var selected_event=$(this).attr('href');
+			$("main").load("all_events/"+selected_event);
+
 		}
 	});
 
