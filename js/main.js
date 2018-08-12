@@ -38,8 +38,8 @@ jQuery(document).ready(function(){
            $('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
 		}
         if(statusTxt == "error"){
-            alert("Event Not Found!");
 			$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
+            alert("Event Not Found!");
 		}
     });
 			//$('main').load("all_events/"+selected_event);
