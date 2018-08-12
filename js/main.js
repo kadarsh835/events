@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			singleProjectContent.load("all_events/"+selected_event);
+			$('#load').load("all_events/"+selected_event);
 			$('#after_load').css({ 'z-index' : '2', 'opacity' : '1' });
 		}
 	});
