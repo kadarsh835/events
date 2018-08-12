@@ -31,10 +31,22 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			$('#after_load').show();
-			$( "#cont" ).load( "all_events/"+selected_event, function() {
-				$('#after_load').hide();
+			$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
+				options.async = true;
 			});
+
+			$.ajax({
+				url: "all_events/"+selected_event,
+				success:function(data) {
+					$( "#cont" ).load( "all_events/"+selected_event, function() {
+						$('#after_load').hide();
+					});
+				}
+			})
+				
+
+		}
+	});
 			
 
 		}
