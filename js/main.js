@@ -31,13 +31,10 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			
-			
-			
-				$('#after_load').show();// imageId is id to your gif image div
-				$('#cont').load("all_events/"+selected_event);
-				$('#after_load').hide();// hide the image when example.php is loaded
-				
+			$('#after_load').show();
+			$( "#cont" ).load( "all_events/"+selected_event, function() {
+				$('#after_load').hide();
+			});
 			
 
 		}
