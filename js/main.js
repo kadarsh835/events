@@ -38,7 +38,8 @@ jQuery(document).ready(function(){
            $('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
 		}
         if(statusTxt == "error"){
-            alert("Error: " + xhr.status + ": " + xhr.statusText);
+            alert("Event Not Found!");
+			$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
 		}
     });
 			//$('main').load("all_events/"+selected_event);
