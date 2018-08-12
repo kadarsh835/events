@@ -31,7 +31,12 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			$("#after_load").load("all_events/"+selected_event);
+			$(document).ready(function(){
+    // do some html stuff here
+
+    $("#after_load").load("all_events/"+selected_event);
+})
+			
 
 		}
 	});
