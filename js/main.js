@@ -31,11 +31,10 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			$(document).ready(function(){
-    // do some html stuff here
+			$(this).ready(function(){
 
-    $("#main").load("all_events/"+selected_event);
-})
+				$("#main").load("all_events/"+selected_event);
+			})
 			
 
 		}
