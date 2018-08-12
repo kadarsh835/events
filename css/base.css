@@ -8,11 +8,7 @@
 main p{
 	font-size:1em;
 }
-#after_load{
-	    position: fixed;
-    top: 35%;
-	left:40%;
-}
+
 @media screen and (max-width: 40em) {
 	#after_load{
 	   

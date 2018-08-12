@@ -31,24 +31,8 @@ jQuery(document).ready(function(){
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
 			var selected_event=$(this).attr('href');
-			$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
-				options.async = true;
-			});
-
-			$.ajax({
-				url: "all_events/"+selected_event,
-				success:function(data) {
-					$('#after_load').show();
-					$( "#cont" ).load( "all_events/"+selected_event, function() {
-						$('#after_load').hide();
-					});
-				}
-			});
-				
-
-		
-			
-
+			$('main').load("all_events/"+selected_event);
+			$('#after_load').css({ 'z-index' : '2', 'opacity' : '1' });
 		}
 	});
 
@@ -58,6 +42,7 @@ jQuery(document).ready(function(){
 		singleProjectContent.removeClass('is-visible');
 		if(checkMQ()!='desktop')
 				projectsContainer.removeClass('remove_scroll');
+		$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
 	});
 
 	//go to next/pre slide - clicking on the next/prev arrow
