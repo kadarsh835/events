@@ -30,7 +30,8 @@ jQuery(document).ready(function(){
 			
 			if(mq!='desktop')
 				projectsContainer.addClass('remove_scroll');
-			var selected_event=$(this).attr('href');
+			var selected_event=null;
+			selected_event=$(this).attr('href');
 			$('#after_load').css({ 'z-index' : '4', 'opacity' : '1' });
 			$("#main").load("all_events/"+selected_event, function(responseTxt, statusTxt, xhr){
         if(statusTxt == "success"){
