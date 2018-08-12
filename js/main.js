@@ -38,15 +38,15 @@ jQuery(document).ready(function(){
 			$.ajax({
 				url: "all_events/"+selected_event,
 				success:function(data) {
+					$('#after_load').show();
 					$( "#cont" ).load( "all_events/"+selected_event, function() {
 						$('#after_load').hide();
 					});
 				}
-			})
+			});
 				
 
-		}
-	});
+		
 			
 
 		}
