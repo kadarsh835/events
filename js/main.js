@@ -34,17 +34,17 @@ jQuery(document).ready(function(){
 			}
 			var selected_event=$(this).attr('href');
 			$('#after_load').css({ 'z-index' : '4', 'opacity' : '1' });
-			$("#main").load("all_events/"+selected_event, function(responseTxt, statusTxt, xhr){
-        if(statusTxt == "success"){
-			singleProjectContent.addClass('is-visible');
-           $('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
-		}
-        if(statusTxt == "error"){
-			$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
-            alert("Event Not Found!");
-		}
-    });
-			//$('main').load("all_events/"+selected_event);
+				$("#main").load("all_events/"+selected_event, function(responseTxt, statusTxt, xhr){
+				if(statusTxt == "success"){
+					singleProjectContent.addClass('is-visible');
+					$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
+				}
+				if(statusTxt == "error"){
+					$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
+					alert("Event Not Found!");
+				}
+			});
+			
 			
 		}
 	});
