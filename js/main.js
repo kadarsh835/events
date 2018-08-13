@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 		sliderNav = $('.cd-slider-navigation');
 
 	var resizing = false;
-	
+	var top = window.pageYOffset || document.documentElement.scrollTop;
 	//if on desktop - set a width for the projectsSlider element
 	setSliderContainer();
 	$(window).on('resize', function(){
@@ -28,8 +28,10 @@ jQuery(document).ready(function(){
 			nextSides(projectsSlider);
 		} else {
 			
-			if(mq!='desktop')
+			if(mq!='desktop'){
+				top = top = window.pageYOffset || document.documentElement.scrollTop;
 				projectsContainer.addClass('remove_scroll');
+			}
 			var selected_event=$(this).attr('href');
 			$('#after_load').css({ 'z-index' : '4', 'opacity' : '1' });
 			$("#main").load("all_events/"+selected_event, function(responseTxt, statusTxt, xhr){
@@ -51,8 +53,10 @@ jQuery(document).ready(function(){
 	singleProjectContent.on('click', '.close', function(event){
 		event.preventDefault();
 		singleProjectContent.removeClass('is-visible');
-		if(checkMQ()!='desktop')
+		if(checkMQ()!='desktop'){
 				projectsContainer.removeClass('remove_scroll');
+				window.scrollTo(0,top);
+		}
 		
 	});
 
