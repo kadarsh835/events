@@ -27,15 +27,14 @@ jQuery(document).ready(function(){
 		} else if ( $(this).parent('li').prev('li').prev('li').prev('li').is('.current')  && (mq == 'desktop') ) {
 			nextSides(projectsSlider);
 		} else {
-			
-			if(mq!='desktop'){
-				top = top = window.pageYOffset || document.documentElement.scrollTop;
-				projectsContainer.addClass('remove_scroll');
-			}
 			var selected_event=$(this).attr('href');
 			$('#after_load').css({ 'z-index' : '4', 'opacity' : '1' });
 				$("#main").load("all_events/"+selected_event, function(responseTxt, statusTxt, xhr){
 				if(statusTxt == "success"){
+					if(mq!='desktop'){
+						top = top = window.pageYOffset || document.documentElement.scrollTop;
+						projectsContainer.addClass('remove_scroll');
+					}
 					singleProjectContent.addClass('is-visible');
 					$('#after_load').css({ 'z-index' : '-1', 'opacity' : '0' });
 				}
