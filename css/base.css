@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-main p{
+main1 p{
 	font-size:1em;
 }
 
@@ -21,7 +21,7 @@ main p{
 	left:35%;
 }
 }
-main{
+main1{
 	--color-text: #000;
 	--color-bg: #ececec;
 	--color-link: #000;
@@ -76,14 +76,14 @@ main{
 	}
 }
 
-main a {
+main1 a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
 }
 
-main a:hover,
-main a:focus {
+main1 a:hover,
+main1 a:focus {
 	color: var(--color-link-hover);
 	outline: none;
 }
@@ -105,7 +105,8 @@ main a:focus {
 	fill: currentColor;
 }
 
-main {
+main1 {
+	display:block;
 	position: relative;
 }
 

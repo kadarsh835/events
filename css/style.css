@@ -4,7 +4,7 @@ Primary style
 
 -------------------------------- */
 #after_load{
-	    position: fixed;
+	position: fixed;
     top: 35%;
 	left:40%;
 	z-index:-1;
@@ -17,6 +17,13 @@ Primary style
   animation: shake 0.6s;
   animation-iteration-count: infinite;
 }
+
+.upbar{
+	position:relative;
+	margin-left: 4%;
+	
+}
+
 
 
 @keyframes shake {
@@ -50,8 +57,9 @@ body{
 
   #myInput {
      background-image: url(https://www.w3schools.com/css/searchicon.png);
-    background-position: 10px 15px;
+    background-position: 10px 13px;
     background-repeat: no-repeat;
+	border-radius: 4px;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
@@ -192,6 +200,7 @@ Projects Slider
 .cd-slider h2, .cd-slider p {
   line-height: 1;
   color: white;
+  margin:.3em;
 }
 @media only screen and (min-width: 900px) {
   .cd-slider {
@@ -730,9 +739,7 @@ Keyframes
   .cd-slider {
 	  padding-top:30px;
   }
-  #myInput {
-	  margin-left:6%;
-  }
+  
 }
 
 .remove_scroll{
@@ -741,3 +748,4 @@ Keyframes
 .scroll{
 	overflow-y:hidden;
 }
+
