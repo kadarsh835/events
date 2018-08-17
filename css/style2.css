@@ -17,9 +17,7 @@ body{
      text-align: left; 
 	 margin:0;
 }
-html {
-  font-size: 62.5%;
-}
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -281,7 +279,7 @@ main {
 .cd-nav h2 {
   position: relative;
   margin-bottom: 1.7em;
-  font-size: 1.2rem;
+  font-size: .8rem;
   font-weight: 800;
   color: #080b0f;
   text-transform: uppercase;
@@ -305,10 +303,10 @@ main {
 }
 .cd-nav .cd-primary-nav a {
   font-family: "Merriweather", serif;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.3);
   display: inline-block;
-  line-height: 1.4;
+  line-height: .7;
 }
 .cd-nav .cd-primary-nav a.selected {
   color: #ffffff;
@@ -333,9 +331,7 @@ main {
 .cd-nav .cd-contact-info span {
   display: block;
 }
-.cd-nav .cd-contact-info li, .cd-nav .cd-contact-info a, .cd-nav .cd-contact-info span {
-  font-size: 1.6rem;
-}
+
 @media only screen and (min-width: 1170px) {
   .cd-nav .cd-navigation-wrapper {
     padding: 62px 20%;
@@ -353,7 +349,7 @@ main {
     margin-top: 0;
   }
   .cd-nav h2 {
-    font-size: 1.5rem;
+    font-size: .9rem;
     margin-bottom: 5.2em;
 	margin-top:0;
   }
@@ -361,18 +357,17 @@ main {
     margin: 2em 0;
   }
   .cd-nav .cd-primary-nav a {
-    font-size: 4rem;
+    font-size: 2.5rem;line-height:1;
   }
   .cd-nav .cd-contact-info {
     margin-top: 120px;
     text-align: right;
+	font-size: 1.2rem;
   }
   .cd-nav .cd-contact-info li {
     margin-bottom: 2.4em;
   }
-  .cd-nav .cd-contact-info li, .cd-nav .cd-contact-info a, .cd-nav .cd-contact-info span {
-    font-size: 2rem;
-  }
+ 
 }
 
 .no-js main {
