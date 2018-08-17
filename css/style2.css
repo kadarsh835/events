@@ -25,12 +25,7 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cd-nav {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  color: #243040;
-  background-color: #ffffff;
-}
+
 
 .cd-nav, html {
   /* prevent horizontal scrolling */
@@ -286,7 +281,7 @@ main {
 .cd-nav h2 {
   position: relative;
   margin-bottom: 1.7em;
-  font-size: .9rem;
+  font-size: 1.2rem;
   font-weight: 800;
   color: #080b0f;
   text-transform: uppercase;
@@ -303,6 +298,7 @@ main {
 }
 .cd-nav .cd-primary-nav {
   margin-top: 60px;
+  padding:0;
 }
 .cd-nav .cd-primary-nav li {
   margin: 1.6em 0;
@@ -312,7 +308,7 @@ main {
   font-size: 2.4rem;
   color: rgba(255, 255, 255, 0.3);
   display: inline-block;
-  line-height: 1.7;
+  line-height: 1.4;
 }
 .cd-nav .cd-primary-nav a.selected {
   color: #ffffff;
@@ -322,6 +318,8 @@ main {
 }
 .cd-nav .cd-contact-info {
   margin-top: 80px;
+  padding:0;
+  font-style: normal;
 }
 .cd-nav .cd-contact-info li {
   font-family: "Merriweather", serif;
@@ -364,7 +362,6 @@ main {
   }
   .cd-nav .cd-primary-nav a {
     font-size: 4rem;
-	line-height:1.5;
   }
   .cd-nav .cd-contact-info {
     margin-top: 120px;
