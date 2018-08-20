@@ -14,9 +14,9 @@
 					<a class="grid__item" href="#preview-1">
 						<div class="box">
 							<div class="box__shadow"></div>
-							<img class="box__img" src="img/Groove-Z.jpg" alt="Some image"/>
+							<img class="box__img" src="img/mela_quiz.jpg" alt="Some image"/>
 							<h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
-							<h4 class="box__text"><span class="box__text-inner">SOlo/Duet</span></h4>
+							<h4 class="box__text"><span class="box__text-inner">MELA Quiz</span></h4>
 							<div class="box__deco">&#10014;</div>
 							<p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
 						</div>
@@ -32,9 +32,27 @@
 					<a class="grid__item" href="#preview-2">
 						<div class="box">
 							<div class="box__shadow"></div>
-							<img class="box__img" src="img/folk_dance.jpg" alt="Some image"/>
+							<img class="box__img" src="img/general_quiz.jpg" alt="Some image"/>
 							<h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Band</span></h4>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">General Quiz</span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-3">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/puzzling_quiz.jpg" alt="Some image"/>
+							<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Puzzling Quiz</span></h4>
+							<div class="box__deco box__deco--top">&#10153;</div>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-4">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/online_treasure_hunt.jpg" alt="Some image"/>
+							<h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="5k">5k</span></h3>
+							<h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Online Treasure Hunt</span></h4>
+							<p class="box__content">"Call it a hurricane or call it freedom, Frank"</p>
 						</div>
 					</a>
 				</div>
@@ -44,9 +62,9 @@
 				<div class="overlay__item" id="preview-1">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/Groove-Z.jpg" alt="Some image"/>
+						<img class="box__img box__img--original" src="img/original/mela_quiz.jpg" alt="Some image"/>
 						<h3 class="box__title"><span class="box__title-inner">22K</span></h3>
-						<h4 class="box__text"><span class="box__text-inner">Solo/Duet</span></h4>
+						<h4 class="box__text"><span class="box__text-inner">MELA Quiz</span></h4>
 						<div class="box__deco">&#10014;</div>
 					</div>
 					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
@@ -54,9 +72,28 @@
 				<div class="overlay__item" id="preview-2">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/folk_dance.jpg" alt="Some image"/>
+						<img class="box__img box__img--original" src="img/original/general_quiz.jpg" alt="Some image"/>
 						<h3 class="box__title"><span class="box__title-inner">10K</span></h3>
-						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Band</span></h4>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">General Quiz</span></h4>
+					</div>
+					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+				</div>
+				<div class="overlay__item" id="preview-3">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/puzzling_quiz.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Puzzling Quiz</span></h4>
+						<div class="box__deco box__deco--top">&#10153;</div>
+					</div>
+					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+				</div>
+				<div class="overlay__item" id="preview-4">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/online_treasure_hunt.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--bottom"><span class="box__title-inner">5k</span></h3>
+						<h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Online Treasure Hunt</span></h4>
 					</div>
 					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
 				</div>

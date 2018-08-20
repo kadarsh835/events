@@ -5,7 +5,7 @@
 						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/ProximityFeedback/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
 						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=34897" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
 					</div>
-					<h1 class="codrops-header__title">FUN EVENTS</h1>
+					<h1 class="codrops-header__title">MUSIC EVENTS</h1>
 					<a class="github" href="https://github.com/codrops/GridLayoutMotion/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
 				</header>
 			</div>
@@ -14,9 +14,9 @@
 					<a class="grid__item" href="#preview-1">
 						<div class="box">
 							<div class="box__shadow"></div>
-							<img class="box__img" src="img/Groove-Z.jpg" alt="Some image"/>
+							<img class="box__img" src="img/csgo.jpg" alt="Some image"/>
 							<h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
-							<h4 class="box__text"><span class="box__text-inner">Groove-Z</span></h4>
+							<h4 class="box__text"><span class="box__text-inner">CS-Go</span></h4>
 							<div class="box__deco">&#10014;</div>
 							<p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
 						</div>
@@ -32,9 +32,18 @@
 					<a class="grid__item" href="#preview-2">
 						<div class="box">
 							<div class="box__shadow"></div>
-							<img class="box__img" src="img/folk_dance.jpg" alt="Some image"/>
+							<img class="box__img" src="img/dota.jpg" alt="Some image"/>
 							<h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance</span></h4>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Dota</span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-3">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/fifa.jpg" alt="Some image"/>
+							<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fifa</span></h4>
+							<div class="box__deco box__deco--top">&#10153;</div>
 						</div>
 					</a>
 				</div>
@@ -44,9 +53,9 @@
 				<div class="overlay__item" id="preview-1">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/Groove-Z.jpg" alt="Some image"/>
+						<img class="box__img box__img--original" src="img/original/csgo.jpg" alt="Some image"/>
 						<h3 class="box__title"><span class="box__title-inner">22K</span></h3>
-						<h4 class="box__text"><span class="box__text-inner">Groove-Z</span></h4>
+						<h4 class="box__text"><span class="box__text-inner">CS-Go</span></h4>
 						<div class="box__deco">&#10014;</div>
 					</div>
 					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
@@ -54,9 +63,19 @@
 				<div class="overlay__item" id="preview-2">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/folk_dance.jpg" alt="Some image"/>
+						<img class="box__img box__img--original" src="img/original/dota.jpg" alt="Some image"/>
 						<h3 class="box__title"><span class="box__title-inner">10K</span></h3>
-						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance</span></h4>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Dota</span></h4>
+					</div>
+					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+				</div>
+				<div class="overlay__item" id="preview-3">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/fifa.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fifa</span></h4>
+						<div class="box__deco box__deco--top">&#10153;</div>
 					</div>
 					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
 				</div>
