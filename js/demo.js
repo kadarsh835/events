@@ -362,3 +362,4 @@
     // Preload all the images in the page..
     imagesLoaded(document.querySelectorAll('.box__img'), () => document.body.classList.remove('loading'));
 }
+
