@@ -72,8 +72,13 @@
             <h4 class="box__text"><span class="box__text-inner">Groove-Z</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
-        <p class="overlay__content"> <br><br><br><br>It's time the tale were told of how you took a child and you made him old.</p>
-		<button class="myBtn" onclick="function_event('Groove-Z')">Open Modal</button>
+		<div class="overlay__content">
+		<div class="myBtn" >
+			<a href="#" onclick="function_event('Groove-Z')" data-title="Register"></a>
+		</div>
+		<br><br><br>
+        <p> It's time the tale were told of how you took a child and you made him old.</p>
+		</div>
     </div>
     <div class="overlay__item" id="preview-2">
         <div class="box">
@@ -128,7 +133,7 @@
 									</a>
 									</h1>
 								</header>
-								<h1 class="text-center">Register</h1>
+								<h1 id="event_title" class="text-center">Register</h1>
 								<form class="registration-form">
 									<input type="hidden" id="event_name" name="event" value="Solo_Duet">
 									<label class="col-one-half">
@@ -150,10 +155,6 @@
 										</button>
 										<input type="password" name="password">
 									</label>
-									<label class="checkbox">
-										<input type="checkbox" name="newsletter">
-										<span>Sign me up for the weekly newsletter.</span>
-									</label>
 									<div class="text-center">
 										<button class="submit" name="register">Sign Me Up</button>
 									</div>
@@ -161,6 +162,37 @@
 							</div>
 						</div>
 			</div>';}
+			else echo'<div id="myModal" class="modal">
+						<div class="modal-content">
+							<span class="close1">&times;</span>
+							<div class="container">
+								<header>
+									<h1>
+									<a href="#">
+										<img src="http://tfgms.com/sandbox/dailyui/logo-1.png" alt="Authentic Collection">
+									</a>
+									</h1>
+								</header>
+								<h1 class="text-center">Login/Signup</h1>
+								<form class="registration-form">
+									<label>
+										<span class="label-text">Email</span>
+										<input type="text" name="email">
+									</label>
+									<label class="password">
+										<span class="label-text">Password</span>
+										<button class="toggle-visibility" title="toggle password visibility" tabindex="-1">
+											<span class="glyphicon glyphicon-eye-close"></span>
+										</button>
+										<input type="password" name="password">
+									</label>
+									<div class="text-center">
+										<button class="submit" name="register">Sign Me Up</button>
+									</div>
+								</form>
+							</div>
+						</div>
+			</div>';
 				?>
 <script src="js/imagesloaded.pkgd.min.js">
 </script>
@@ -169,14 +201,6 @@
 <script src="js/demo.js">
 </script>
 <script>
-    function openForm(form) {
-        document.getElementById(form).style.display = "block";
-    }
-
-    function closeForm(form) {
-        document.getElementById(form).style.display = "none";
-    }
-
     $(document).ready(function() {
         $('.registration-form').on('submit', function(e) {
             e.preventDefault();
@@ -199,6 +223,7 @@
     var span = document.getElementsByClassName("close1")[0];
     function function_event(evt) {
 		$('#event_name').attr('value',evt);
+		$('#event_title').html("Register for "+evt);
 		modal.style.display = "block";
     }
     span.onclick = function() {
