@@ -88,10 +88,13 @@
             <h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Solo/Duet</span></h4>
             <div class="box__deco box__deco--top">&#10115;</div>
         </div>
-        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
-       
-				<button class="myBtn" onclick="function_event('Solo_Duet')">Open Modal</button>
-		
+        <div class="overlay__content">
+		<div class="myBtn" >
+			<a href="#" onclick="function_event('Solo_Duet')" data-title="Register"></a>
+		</div>
+		<br><br><br>
+        <p> It's time the tale were told of how you took a child and you made him old.</p>
+		</div>
 		
     </div>
     <div class="overlay__item" id="preview-3">
@@ -102,8 +105,14 @@
             <h4 class="box__text box__text--topcloser"><span class="box__text-inner">Street Battle</span></h4>
             <div class="box__deco">&#10032;</div>
         </div>
-        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
-    </div>
+		<div class="overlay__content">
+		<div class="myBtn" >
+			<a href="#" onclick="function_event('Street Battle')" data-title="Register"></a>
+		</div>
+		<br><br><br>
+        <p> It's time the tale were told of how you took a child and you made him old.</p>
+		</div>
+       </div>
     <div class="overlay__item" id="preview-4">
         <div class="box">
             <div class="box__shadow"></div>
