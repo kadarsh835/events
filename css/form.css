@@ -1,4 +1,4 @@
-#myBtn{
+.myBtn{
 	z-index:4;
 	cursor:pointer;
 }
@@ -6,7 +6,7 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     padding-top: 100px; /* Location of the box */
-	z-index:999;
+	z-index:1005;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -203,4 +203,9 @@ h1 img{
 	margin: 0 auto;
 	max-width: 240px;
 	width: 100%;
+}
+@media only screen and (min-width: 600px) {
+	.modal-content {
+		width:70%;
+	}
 }

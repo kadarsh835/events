@@ -73,73 +73,7 @@
             <div class="box__deco">&#10014;</div>
         </div>
         <p class="overlay__content"> <br><br><br><br>It's time the tale were told of how you took a child and you made him old.</p>
-        <?php 
-			$if_login=1;
-			if($if_login){
-				echo'<button id="myBtn">Open Modal</button>
-					<div id="myModal" class="modal">
-						<div class="modal-content">
-							<span class="close1">&times;</span>
-							<div class="container">
-	<header>
-		<h1>
-			<a href="#">
-				<img src="http://tfgms.com/sandbox/dailyui/logo-1.png" alt="Authentic Collection">
-			</a>
-		</h1>
-	</header>
-	<h1 class="text-center">Register</h1>
-	<form class="registration-form">
-		<label class="col-one-half">
-			<span class="label-text">First Name</span>
-			<input type="text" name="firstName">
-		</label>
-		<label class="col-one-half">
-			<span class="label-text">Last Name</span>
-			<input type="text" name="lastName">
-		</label>
-		<label>
-			<span class="label-text">Email</span>
-			<input type="text" name="email">
-		</label>
-		<label class="password">
-			<span class="label-text">Password</span>
-			<button class="toggle-visibility" title="toggle password visibility" tabindex="-1">
-				<span class="glyphicon glyphicon-eye-close"></span>
-			</button>
-			<input type="password" name="password">
-		</label>
-		<label class="checkbox">
-			<input type="checkbox" name="newsletter">
-			<span>Sign me up for the weekly newsletter.</span>
-		</label>
-		<div class="text-center">
-			<button class="submit" name="register">Sign Me Up</button>
-		</div>
-	</form>
-</div>
-						</div>
-					</div>';
-			}
-			else
-			{
-				echo'<button class="open-button" onclick="openForm(\'myForm1\')">Login</button>
-
-			<div class="form-popup" id="myForm1">
-				<form action="" method="get" class="form-container">
-					<h1>Login</h1>
-					
-					<label for="email"><b>Email</b></label>
-					<input type="text" placeholder="Enter Email" name="email" required>
-
-					<label for="psw"><b>Password</b></label>
-					<input type="password" placeholder="Enter Password" name="psw" required>
-
-					<button type="submit" class="btn" >Login</button>
-					<button type="button" class="btn cancel" onclick="closeForm(\'myForm1\')">Close</button>
-				</form>
-			</div>';
-			} ?>
+		<button class="myBtn" onclick="function_event('Groove-Z')">Open Modal</button>
     </div>
     <div class="overlay__item" id="preview-2">
         <div class="box">
@@ -150,45 +84,10 @@
             <div class="box__deco box__deco--top">&#10115;</div>
         </div>
         <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
-        <?php 
-			$if_login=1;
-			if($if_login){
-				echo'<button class="open-button" onclick="openForm(\'myForm2\')" >Register</button>
-
-			<div class="form-popup" id="myForm2">
-				<form action="" class="form-container form_reg">
-					<h1>Register</h1>
-					<input type="hidden"  name="event" value="Solo_Duet">
-					<label for="email"><b>Email</b></label>
-					<input type="text" placeholder="Enter Email" name="email" id="email" required>
-
-					<label for="psw"><b>Password</b></label>
-					<input type="password" placeholder="Enter Password" id="pwd" name="psw" required>
-
-					<button type="submit" class="btn" >Login</button>
-					<button type="button" class="btn cancel" onclick="closeForm(\'myForm2\')">Close</button>
-				</form>
-			</div>';
-			}
-			else
-			{
-				echo'<button class="open-button" onclick="openForm(\'myForm2\')">Login</button>
-
-			<div class="form-popup" id="myForm2">
-				<form action="" class="form-container">
-					<h1>Login</h1>
-
-					<label for="email"><b>Email</b></label>
-					<input type="text" placeholder="Enter Email" name="email" required>
-
-					<label for="psw"><b>Password</b></label>
-					<input type="password" placeholder="Enter Password" name="psw" required>
-
-					<button type="submit" class="btn" >Login</button>
-					<button type="button" class="btn cancel" onclick="closeForm(\'myForm2\')">Close</button>
-				</form>
-			</div>';
-			} ?>
+       
+				<button class="myBtn" onclick="function_event('Solo_Duet')">Open Modal</button>
+		
+		
     </div>
     <div class="overlay__item" id="preview-3">
         <div class="box">
@@ -214,6 +113,55 @@
             <use xlink:href="#icon-cross"></use>
         </svg></button>
 </div>
+				<?php 
+			$if_login=1;
+			if($if_login){
+				echo'
+					<div id="myModal" class="modal">
+						<div class="modal-content">
+							<span class="close1">&times;</span>
+							<div class="container">
+								<header>
+									<h1>
+									<a href="#">
+										<img src="http://tfgms.com/sandbox/dailyui/logo-1.png" alt="Authentic Collection">
+									</a>
+									</h1>
+								</header>
+								<h1 class="text-center">Register</h1>
+								<form class="registration-form">
+									<input type="hidden" id="event_name" name="event" value="Solo_Duet">
+									<label class="col-one-half">
+										<span class="label-text">First Name</span>
+										<input type="text" name="firstName">
+									</label>
+									<label class="col-one-half">
+										<span class="label-text">Last Name</span>
+										<input type="text" name="lastName">
+									</label>
+									<label>
+										<span class="label-text">Email</span>
+										<input type="text" name="email">
+									</label>
+									<label class="password">
+										<span class="label-text">Password</span>
+										<button class="toggle-visibility" title="toggle password visibility" tabindex="-1">
+											<span class="glyphicon glyphicon-eye-close"></span>
+										</button>
+										<input type="password" name="password">
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="newsletter">
+										<span>Sign me up for the weekly newsletter.</span>
+									</label>
+									<div class="text-center">
+										<button class="submit" name="register">Sign Me Up</button>
+									</div>
+								</form>
+							</div>
+						</div>
+			</div>';}
+				?>
 <script src="js/imagesloaded.pkgd.min.js">
 </script>
 <script src="js/TweenMax.min.js">
@@ -230,14 +178,14 @@
     }
 
     $(document).ready(function() {
-        $('.form_reg').on('submit', function(e) {
+        $('.registration-form').on('submit', function(e) {
             e.preventDefault();
             $.ajax({
                 url: "register.php",
                 type: "POST",
                 data: $(this).serialize(),
                 success: function(data) {
-                    alert("ho gyil");
+                    alert("ho gya");
                 },
                 error: function(jXHR, textStatus, errorThrown) {
                     alert(errorThrown);
@@ -248,10 +196,10 @@
 </script>
 <script>
     var modal = document.getElementById('myModal');
-    var btn = document.getElementById("myBtn");
     var span = document.getElementsByClassName("close1")[0];
-    btn.onclick = function() {
-        modal.style.display = "block";
+    function function_event(evt) {
+		$('#event_name').attr('value',evt);
+		modal.style.display = "block";
     }
     span.onclick = function() {
         modal.style.display = "none";
