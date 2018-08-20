@@ -19,29 +19,11 @@
         <a class="grid__item" href="#preview-1">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/Groove-Z.jpg" alt="Some image" />
+                <img class="box__img" src="img/western_dance_group.jpg" alt="Some image" />
                 <h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Groove-Z</span></h4>
+                <h4 class="box__text"><span class="box__text-inner">Western Dance - Group</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
-            </div>
-        </a>
-        <a class="grid__item" href="#preview-2">
-            <div class="box">
-                <div class="box__shadow"></div>
-                <img class="box__img" src="img/duet.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-                <h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Solo/Duet</span></h4>
-                <div class="box__deco box__deco--top">&#10115;</div>
-            </div>
-        </a>
-        <a class="grid__item" href="#preview-3">
-            <div class="box">
-                <div class="box__shadow"></div>
-                <img class="box__img" src="img/street_battle.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="5K">5K</span></h3>
-                <h4 class="box__text box__text--topcloser"><span class="box__text-inner">Street Battle</span></h4>
-                <div class="box__deco">&#10032;</div>
             </div>
         </a>
         <a class="grid__item grid__item--noclick" href="http://go.thoughtleaders.io/253620180522">
@@ -52,12 +34,55 @@
                 <p class="box__content"><strong>monday.com</strong> offers simplified planning and collaboration tools. Create customizable boards to track everything your team is working on and keep all communication in one place and never lose track again. <strong>Create your free account</strong></p>
             </div>
         </a>
+        <a class="grid__item" href="#preview-2">
+            <div class="box">
+                <div class="box__shadow"></div>
+                <img class="box__img" src="img/folk_dance_group.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance - Group</span></h4>
+            </div>
+        </a>
+        <a class="grid__item" href="#preview-3">
+            <div class="box">
+                <div class="box__shadow"></div>
+                <img class="box__img" src="img/solo_dance.jpg" alt="Some image" />
+                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Dance</span></h4>
+                <div class="box__deco box__deco--top">&#10153;</div>
+            </div>
+        </a>
         <a class="grid__item" href="#preview-4">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/folk_dance.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance</span></h4>
+                <img class="box__img" src="img/duet_dance.jpg" alt="Some image" />
+                <h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="5k">5k</span></h3>
+                <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Duet Dance</span></h4>
+                <p class="box__content">"Call it a hurricane or call it freedom, Frank"</p>
+            </div>
+        </a>
+        <a class="grid__item" href="#preview-5">
+            <div class="box">
+                <div class="box__shadow"></div>
+                <img class="box__img" src="img/street_battle.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="4k">4k</span></h3>
+                <h4 class="box__text box__text--bottom"><span class="box__text-inner">Street Battle</span></h4>
+            </div>
+        </a>
+        <a class="grid__item" href="#preview-6">
+            <div class="box">
+                <div class="box__shadow"></div>
+                <img class="box__img" src="img/Groove-Z.jpg" alt="Some image" />
+                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Red">9k</span></h3>
+                <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Groove-Z</span></h4>
+            </div>
+        </a>
+        <a class="grid__item" href="#preview-7">
+            <div class="box">
+                <div class="box__shadow"></div>
+                <img class="box__img" src="img/rapping.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="5k">5k</span></h3>
+                <h4 class="box__text"><span class="box__text-inner">Rapping</span></h4>
+                <p class="box__content">"Love stronger, stranger! Love stronger."</p>
             </div>
         </a>
     </div>
@@ -67,67 +92,108 @@
     <div class="overlay__item" id="preview-1">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Groove-Z.jpg" alt="Some image" />
+            <img class="box__img box__img--original" src="img/original/western_dance_group.jpg" alt="Some image" />
             <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Groove-Z</span></h4>
+            <h4 class="box__text"><span class="box__text-inner">Western Dance - Group</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
-		<div class="overlay__content">
-		<div class="myBtn" >
-			<a href="#" onclick="function_event('Groove-Z')" data-title="Register"></a>
-		</div>
-		<br><br><br>
-        <p> It's time the tale were told of how you took a child and you made him old.</p>
-		</div>
+        <div class="overlay__content">
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Western Dance - Group')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
     </div>
     <div class="overlay__item" id="preview-2">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/duet.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">10K</span></h3>
-            <h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Solo/Duet</span></h4>
-            <div class="box__deco box__deco--top">&#10115;</div>
+            <img class="box__img box__img--original" src="img/original/folk_dance_group.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance - Group</span></h4>
         </div>
         <div class="overlay__content">
-		<div class="myBtn" >
-			<a href="#" onclick="function_event('Solo_Duet')" data-title="Register"></a>
-		</div>
-		<br><br><br>
-        <p> It's time the tale were told of how you took a child and you made him old.</p>
-		</div>
-		
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Folk Dance - Group')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
     </div>
     <div class="overlay__item" id="preview-3">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/street_battle.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">5K</span></h3>
-            <h4 class="box__text box__text--topcloser"><span class="box__text-inner">Street Battle</span></h4>
-            <div class="box__deco">&#10032;</div>
+            <img class="box__img box__img--original" src="img/original/solo_dance.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Dance</span></h4>
+            <div class="box__deco box__deco--top">&#10153;</div>
         </div>
-		<div class="overlay__content">
-		<div class="myBtn" >
-			<a href="#" onclick="function_event('Street Battle')" data-title="Register"></a>
-		</div>
-		<br><br><br>
-        <p> It's time the tale were told of how you took a child and you made him old.</p>
-		</div>
-       </div>
+        <div class="overlay__content">
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Solo Dance')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
+    </div>
     <div class="overlay__item" id="preview-4">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/folk_dance.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
-            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance</span></h4>
+            <img class="box__img box__img--original" src="img/original/duet_dance.jpg" alt="Some image" />
+            <h3 class="box__title box__title--bottom"><span class="box__title-inner">5k</span></h3>
+            <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Duet Dance</span></h4>
         </div>
-        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
-
+        <div class="overlay__content">
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Duet Dance')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
+    </div>
+    <div class="overlay__item" id="preview-5">
+        <div class="box">
+            <div class="box__shadow"></div>
+            <img class="box__img box__img--original" src="img/original/street_battle.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">4k</span></h3>
+            <h4 class="box__text box__text--bottom"><span class="box__text-inner">Street Battle</span></h4>
+        </div>
+        <div class="overlay__content">
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Street Battle')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
+    </div>
+    <div class="overlay__item" id="preview-6">
+        <div class="box">
+            <div class="box__shadow"></div>
+            <img class="box__img box__img--original" src="img/original/Groove-Z.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">9k</span></h3>
+            <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Groove-Z</span></h4>
+        </div>
+        <div class="overlay__content">
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Groove-Z')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
+    </div>
+    <div class="overlay__item" id="preview-7">
+        <div class="box">
+            <div class="box__shadow"></div>
+            <img class="box__img box__img--original" src="img/original/rapping.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">5k</span></h3>
+            <h4 class="box__text"><span class="box__text-inner">Rapping</span></h4>
+        </div>
+        <div class="overlay__content">
+            <div class="myBtn">
+                <a href="#" onclick="function_event('Rapping')" data-title="Register"></a>
+            </div>
+            <p> It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
     </div>
     <button class="overlay__close"><svg class="icon icon--cross">
             <use xlink:href="#icon-cross"></use>
         </svg></button>
 </div>
-				<?php 
+<?php 
 			$if_login=1;
 			if($if_login){
 				echo'
@@ -203,12 +269,9 @@
 						</div>
 			</div>';
 				?>
-<script src="js/imagesloaded.pkgd.min.js">
-</script>
-<script src="js/TweenMax.min.js">
-</script>
-<script src="js/demo.js">
-</script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/demo.js"></script>
 <script>
     $(document).ready(function() {
         $('.registration-form').on('submit', function(e) {
@@ -230,10 +293,11 @@
 <script>
     var modal = document.getElementById('myModal');
     var span = document.getElementsByClassName("close1")[0];
+
     function function_event(evt) {
-		$('#event_name').attr('value',evt);
-		$('#event_title').html("Register for "+evt);
-		modal.style.display = "block";
+        $('#event_name').attr('value', evt);
+        $('#event_title').html("Register for " + evt);
+        modal.style.display = "block";
     }
     span.onclick = function() {
         modal.style.display = "none";
