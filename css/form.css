@@ -45,8 +45,9 @@ body {
 .info {
   background: url(../img/original/duet.jpg);
   background-repeat: no-repeat;
-  border-right: 5px solid rgba(30, 30, 30, 0.8);
   background-size: cover;
+  border-right: 5px solid rgba(30, 30, 30, 0.8);
+ 
 }
 .info h2 {
   font-weight: 300;
