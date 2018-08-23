@@ -1,268 +1,113 @@
-.myBtn{
-	z-index:4;
-	font-size:1.1em;
-	margin-left:30px;
-	
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.myBtn a {
-	font-size:.6em;
-  position: relative;
-  padding: .3em .5em;
-  text-decoration: none;
+.goback{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .4em;
+	font-size: 1.4em;
+    height: 50px;
+    color: #fff;
+    transition: all .2s;
+    width: 140px;
+	cursor:pointer;
+    background: rgba(0,0,0,.8);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+body {
+	background:url(../img/alphago.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+.signupSection {
+  background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+  background-repeat: no-repeat;
   text-align: center;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  margin:auto;
   color: white;
-}
-.myBtn a::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
-  border-radius: 4px;
-  transition: box-shadow .5s ease, -webkit-transform .2s ease;
-  transition: box-shadow .5s ease, transform .2s ease;
-  transition: box-shadow .5s ease, transform .2s ease, -webkit-transform .2s ease;
-  will-change: transform;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
-          transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
-}
-.myBtn a:hover::before {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-.myBtn a::after {
-  position: relative;
-  display: inline-block;
-  content: attr(data-title);
-  transition: -webkit-transform .2s ease;
-  transition: transform .2s ease;
-  transition: transform .2s ease, -webkit-transform .2s ease;
-  font-weight: bold;
-  color:white;
-  letter-spacing: .01em;
-  will-change: transform;
-  -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
-          transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+	background-attachment: fixed;
+    background-position: center; 
+	margin-top:60px;
 }
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    padding-top: 100px; /* Location of the box */
-	z-index:1005;
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-	
+.info {
+  background: url(../img/original/duet.jpg);
+  background-repeat: no-repeat;
+  border-right: 5px solid rgba(30, 30, 30, 0.8);
+  background-size: cover;
+}
+.info h2 {
+  font-weight: 300;
+  background: linear-gradient(135deg, #1c1c24, #000000);
+  border-radius:4px;
+}
+.info .icon {
+  font-size: 8em;
+  padding: 20px 0;
+  color: #0ab4b4;
 }
 
-/* Modal Content */
-.modal-content {
-    background-color: #ffbf80;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 97%;
+.signupForm {
+  padding: 30px 0;
+  background: rgba(20, 40, 40, 0.8);
+  transition: .2s;
 }
-.modal-content:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-	background-image: url('../img/alphago.jpg');
-	background-repeat: no-repeat;
-    background-size: cover;
-	opacity:1;
+.signupForm h2 {
+  font-weight: 300;
 }
 
-/* The Close Button */
-.close1 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.inputFields {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #0ab4b4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, 0.2);
+  color: white;
+  outline: none;
 }
 
-.close1:hover,
-.close1:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+.noBullet {
+  list-style-type: none;
+  padding: 0;
 }
 
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Cookie|Raleway:300,700,400);
-*{
-	box-sizing: border-box;
-	font-size: 1em;
-	margin: 0;
-	padding: 0;
+#join-btn {
+  border: 1px solid #0ab4b4;
+  background: rgba(20, 20, 20, 0.6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
 }
-form button.submit{
-	background: rgba(255,255,255,0.25);
-	border: 1px solid #333;
-	line-height: 1em;
-	padding: 0.5em 0.5em;
-	-webkit-transition: all 0.25s;
-	transition: all 0.25s;
-}
-form button:hover,
-form button:focus,
-form button:active,
-form button.loading{
-	background: #333;
-	color: #fff;
-	outline: none;
-}
-form button.success{
-	background: #27ae60;
-	border-color: #27ae60; 
-	color: #fff;
-}
-@-webkit-keyframes spin{
-	from{ transform: rotate(0deg); }
-	to{ transform: rotate(360deg); }
-}
-@keyframes spin{
-	from{ transform: rotate(0deg); }
-	to{ transform: rotate(360deg); }
-}
-form button span.loading-spinner{
-	-webkit-animation: spin 0.5s linear infinite;
-	animation: spin 0.5s linear infinite;
-	border: 2px solid #fff;
-	border-top-color: transparent;
-	border-radius: 50%;
-	display: inline-block;
-	height: 1em;
-	width: 1em;
+#join-btn:hover {
+  background: rgba(20, 20, 20, 0.8);
+  padding: 10px 80px;
 }
 
-form label{
-	border-bottom: 1px solid #333;
-	display: block;
-	font-size: 1.25em;
-	margin-bottom: 0.5em;
-	-webkit-transition: all 0.25s;
-	transition: all 0.25s;
-}
-form label.col-one-half{
-	float: left;
-	width: 50%;
-}
-form label.col-one-half:nth-of-type(even){
-	border-left: 1px solid #333;
-	padding-left: 0.25em;
-}
-form label input{
-	background: none;
-	border: none;
-	line-height: 1em;
-	font-weight: 300;
-	padding: 0.125em 0.25em;
-	width: 100%;
-}
-form label input:focus{
-	outline: none;
-}
-form label input:-webkit-autofill{
-	background-color: transparent !important;
-}
-form label span.label-text{
-	display: block;
-	font-size: 0.5em;
-	font-weight: bold;
-	padding-left: 0.5em;
-	text-transform: uppercase;
-	-webkit-transition: all 0.25s;
-	transition: all 0.25s;
-}
-form label.checkbox{
-	border-bottom: 0;
-	text-align: center;
-}
-form label.checkbox input{
-	display: none;
-}
-form label.checkbox span{
-	font-size: 0.5em;
-}
-form label.checkbox span:before{
-	content: '\e157';
-	display: inline-block;
-	font-family: 'Glyphicons Halflings';
-	font-size: 1.125em;
-	padding-right: 0.25em;
-	position: relative;
-		top: 1px;
-}
-form label.checkbox input:checked + span:before{content: '\e067';}
-form label.invalid{border-color: #c0392b !important;}
-form label.invalid span.label-text{color: #c0392b;}
-form label.password{position: relative;}
-form label.password button.toggle-visibility{
-	background: none;
-	border: none;
-	cursor: pointer;
-	font-size: 0.75em;
-	line-height: 1em;
-	position: absolute;
-		top: 50%;
-		right: 0.5em;
-	text-align: center;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	-webkit-transition: all 0.25s;
-	transition: all 0.25s;
-}
-form label.password button.toggle-visibility:hover,
-form label.password button.toggle-visibility:focus,
-form label.password button.toggle-visibility:active{
-	color: #000;
-	outline: none;
-}
-form label.password button.toggle-visibility span{vertical-align: middle;}
-
-.text-center{
-	text-align: center;
-}
-
-h1{
-	font-size: 3em;
-	margin: 0 0 0.5em 0;
-	text-align: center;
-	font-family: 'Cookie', cursive;
-}
-h1 img{
-	height: auto;
-	margin: 0 auto;
-	max-width: 240px;
-	width: 100%;
-}
-@media only screen and (min-width: 600px) {
-	.modal-content {
-		width:70%;
+@media screen and (max-width: 600px){
+	.signupSection{
+		width:auto;
+		margin-bottom: 30px;
 	}
-}
-@media screen and (max-width: 872px){
-	.myBtn{
-		font-size:2em;
-		margin-left:auto;
+	.info {
+		height:400px;
 	}
 }
