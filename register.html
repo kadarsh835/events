@@ -62,9 +62,7 @@ function delete_row(rowno)
         <label for="password"></label>
         <input type="password" class="inputFields" id="password" name="password" placeholder="Password" value="" oninput="return passwordValidation(this.value)" required/>
       </li>
-      <li id="center-btn">
-        <input type="submit" id="join-btn" name="join" alt="Join" value="Join">
-      </li>
+      
     </ul>
 	<div id="employee_table">
 		<ul id="row1" class="noBullet">
@@ -77,7 +75,11 @@ function delete_row(rowno)
 	</div>
 	<ul class="noBullet">
 			<li><input id="bt" type="button" onclick="add_row();" value="ADD PERSON"></li>
+			<li id="center-btn">
+        <input type="submit" id="join-btn" name="join" alt="Join" value="Register">
+      </li>
 		</ul>
+	
   </form>
  
 	</div>

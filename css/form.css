@@ -114,10 +114,10 @@ body {
 #bt{
 	border: 1px solid #0ab4b4;
   background: rgba(20, 20, 20, 0.6);
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   margin-top: 20px;
-  padding: 10px 30px;
+  padding: 6px;
   cursor: pointer;
   transition: .4s;
 }
