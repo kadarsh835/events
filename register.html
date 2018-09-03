@@ -18,6 +18,13 @@ function delete_row(rowno)
 {
  $('#'+rowno).remove();
 }
+
+	function calc(){
+		$per=$("#employee_table ul").length+1;
+		$('.modal-body').html("<p>Charge per person = Rs. 250</p><p>Total Participants = "+$per+"</P><p>Total you have to pay = "+250*$per+"</p>");
+		$('#myModal').modal('show');
+	}
+
 </script>
   </head>
 <?php $event_name="Register";
@@ -76,7 +83,7 @@ function delete_row(rowno)
 	<ul class="noBullet">
 			<li><input id="bt" type="button" onclick="add_row();" value="ADD PERSON"></li>
 			<li id="center-btn">
-        <input type="submit" id="join-btn" name="join" alt="Join" value="Register">
+        <input type="submit" id="join-btn" onclick="calc();" name="join" alt="Join" value="Register">
       </li>
 		</ul>
 	
@@ -85,6 +92,29 @@ function delete_row(rowno)
 	</div>
 </div>
 	</div>
+	<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Finally</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Proceed</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 
       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
