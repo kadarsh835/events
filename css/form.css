@@ -3,6 +3,30 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
+#style-2{
+	height: 550px;
+    overflow-y: scroll;
+}
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: rgba(20, 40, 40, 0.2);
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgba(20, 40, 40, 0.2);
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(20, 40, 40, 1);
+}
+
 
 .goback{
 	    position: absolute;
@@ -87,7 +111,16 @@ body {
   list-style-type: none;
   padding: 0;
 }
-
+#bt{
+	border: 1px solid #0ab4b4;
+  background: rgba(20, 20, 20, 0.6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: .4s;
+}
 #join-btn {
   border: 1px solid #0ab4b4;
   background: rgba(20, 20, 20, 0.6);
