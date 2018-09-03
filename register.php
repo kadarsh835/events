@@ -6,18 +6,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Event Registration</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/form.css">
     <script type="text/javascript">
         function add_row() {
             $rowno = $("#employee_table ul").length;
+
             $rowno = $rowno + 1;
-            $("#employee_table ul:last").after("<ul id='row" + $rowno + "' class='noBullet'><h5>Person " + $rowno + "</h5><li><input type='text' class='inputFields''name='name[]' placeholder='Enter Name'></li><li><input type='text' class='inputFields' name='age[]' placeholder='Enter Age'></li><li><input type='text' class='inputFields' name='job[]' placeholder='Enter Job'></li><li><input  id='bt' type='button' value='DELETE' onclick=delete_row('row" + $rowno + "')></li></ul>");
+            $("#employee_table ul:last").after("<ul id='row" + $rowno + "' class='noBullet'><h5>Person " + $rowno + "</h5><li><input type='text' class='inputFields' name='name[]' placeholder='Participant Name'></li><li><input type='text' class='inputFields' name='age[]' placeholder='Contact Number'></li><li><input type='text' class='inputFields' name='job[]' placeholder='Gender:M/F'></li><li><input  id='bt' type='button' value='DELETE' onclick=delete_row('row" + $rowno + "')></li><div class='form-check-inline'><li><label >Accomodation: &nbsp;</label><label class='form-check-label'><input type='checkbox' class='form-check-input' value='1'>18th &nbsp;</label><input type='checkbox' class='form-check-input' value='2'>19th &nbsp;</label><input type='checkbox' class='form-check-input' value='3'>20th &nbsp;</label></li></div></ul>");
         }
 
         function delete_row(rowno) {
             $('#' + rowno).remove();
+        }
+
+        function calc() {
+            $per = $("#employee_table ul").length;
+            $check = 0;
+            for ($i = 1; $i <= $per; $i++) {
+                $check += $("#row" + $i + " .form-check-inline :checked").length;
+            }
+
+            $('.modal-body').html("<p>Participation Charge : Rs. 250</p><p>Per person accomodation charge : Rs. 50</p><p>No. of Participants : " + $per + "</p><p>Accomodation  for " + $check + " nights</p><p>You have to pay a total of : " + (250 + $check * 50) + "</p>");
+            $('#myModal').modal('show');
         }
     </script>
 </head>
@@ -44,10 +56,39 @@
                     <?php echo $event_name; ?>
                 </h2>
             </div>
-            <div class="col-md-6" id="style-2">
+            <div class="col-md-6 style-2">
 
-                <?php $login=0;
-	if($login) echo '<form action="#" method="POST" class="signupForm" name="signupform">
+                <?php $login=1; $solo=0;
+	if($login){
+		if(!$solo){
+			echo '<form action="#" method="POST" class="signupForm" name="signupform">
+			<h2>Register</h2>
+			<ul class="noBullet">
+			  <li>
+				<label for="username"></label>
+				<input type="text" class="inputFields" id="username" name="username" placeholder="Team Name" value="" oninput="return userNameValidation(this.value)" required/>
+			  </li>
+			  <li>
+				<label for="username"></label>
+				<input type="text" class="inputFields" id="username" name="username" placeholder="College Name" value="" oninput="return userNameValidation(this.value)" required/>
+			  </li>
+			  <li>
+				<label for="username"></label>
+				<input type="text" class="inputFields" id="username" name="username" placeholder="Team Contact Number" value="" oninput="return userNameValidation(this.value)" required/>
+			  </li>
+			</ul>
+			<div id="employee_table">
+				<ul id="row1" class="noBullet"><h5>Team Leader</h5><li><input type="text" class="inputFields" name="name[]" placeholder="Name"></li><li><input type="text" class="inputFields" name="age[]" placeholder="Contact Number"></li><li><input type="text" class="inputFields" name="job[]" placeholder="Gender:M/F"></li><div class="form-check-inline"><li><label >Accomodation: &nbsp;</label><label class="form-check-label"><input type="checkbox" class="form-check-input" value="">18th &nbsp;</label><input type="checkbox" class="form-check-input" value="">19th &nbsp;</label><input type="checkbox" class="form-check-input" value="">20th &nbsp;</label></li></div></ul>
+			</div>
+			<ul class="noBullet">
+				<li><input id="bt" type="button" onclick="add_row();" value="ADD PERSON"></li>
+				<li id="center-btn">
+					<input type="submit" id="join-btn" onclick="calc();" name="join" alt="Join" value="Register">
+				</li>
+			</ul>
+		</form>';
+		}
+	else echo'<form action="#" method="POST" class="signupForm" name="signupform">
     <h2>Register</h2>
     <ul class="noBullet">
       <li>
@@ -56,41 +97,23 @@
       </li>
 	  <li>
         <label for="username"></label>
-        <input type="text" class="inputFields" id="username" name="username" placeholder="Name" value="" oninput="return userNameValidation(this.value)" required/>
+        <input type="text" class="inputFields" id="username" name="username" placeholder="College Name" value="" oninput="return userNameValidation(this.value)" required/>
       </li>
 	  <li>
         <label for="username"></label>
-        <input type="text" class="inputFields" id="username" name="username" placeholder="Name" value="" oninput="return userNameValidation(this.value)" required/>
+        <input type="text" class="inputFields" id="username" name="username" placeholder="Contact Number" value="" oninput="return userNameValidation(this.value)" required/>
       </li>
-	  <li>
-        <label for="username"></label>
-        <input type="text" class="inputFields" id="username" name="username" placeholder="Person" value="" oninput="return userNameValidation(this.value)" required/>
-      </li>
-      <li>
-        <label for="password"></label>
-        <input type="password" class="inputFields" id="password" name="password" placeholder="Password" value="" oninput="return passwordValidation(this.value)" required/>
-      </li>
-      
     </ul>
 	<div id="employee_table">
 		<ul id="row1" class="noBullet">
-			<h5>Person 1</h5>
-			<li><input type="text" class="inputFields" name="name[]" placeholder="Enter Name"></li>
-			<li><input type="text" class="inputFields" name="age[]" placeholder="Enter Age"></li>
-			<li><input type="text" class="inputFields" name="job[]" placeholder="Enter Job"></li>
+		<li><input type="text" class="inputFields" name="job[]" placeholder="Gender:M/F"></li><div class="form-check-inline"><li><label >Accomodation: &nbsp;</label><label class="form-check-label"><input type="checkbox" class="form-check-input" value="">18th &nbsp;</label><input type="checkbox" class="form-check-input" value="">19th &nbsp;</label><input type="checkbox" class="form-check-input" value="">20th &nbsp;</label></li></div>
 		</ul>
-		
 	</div>
 	<ul class="noBullet">
-			<li><input id="bt" type="button" onclick="add_row();" value="ADD PERSON"></li>
-			<li id="center-btn">
-        <input type="submit" id="join-btn" name="join" alt="Join" value="Register">
+	<input type="submit" id="join-btn" onclick="calc();" name="join" alt="Join" value="Register">
       </li>
-		</ul>
-	
-  </form>';
-	
-	else 
+		</ul>';
+		}else 
 		echo '<form style="margin-top:70px" action="#" method="POST" class="signupForm" name="signupform">
     <h2>SIGN IN</h2>
     <ul class="noBullet">
@@ -111,6 +134,29 @@
 	</ul>
   </form>';
   ?>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Charges</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Proceed</button>
+                </div>
+
             </div>
         </div>
     </div>
