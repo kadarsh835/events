@@ -19,9 +19,9 @@
         <a class="grid__item" href="#preview-1">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/solo_singing_indian.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Solo Singing(Indian)</span></h4>
+                <img class="box__img" src="img/saaz.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="0K">0K</span></h3>
+                <h4 class="box__text"><span class="box__text-inner">SAAZ(Solo Indian)</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
             </div>
@@ -37,51 +37,51 @@
         <a class="grid__item" href="#preview-2">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/solo_singing_western.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Singing(Western)</span></h4>
+                <img class="box__img" src="img/adagio.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="0K">0K</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">ADAGIO(SOLO Western)</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-3">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/solo_instrumental.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Instrumental</span></h4>
+                <img class="box__img" src="img/euphony.jpg" alt="Some image" />
+                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="15k">15k</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">EUPHONY</span></h4>
                 <div class="box__deco box__deco--top">&#10153;</div>
             </div>
         </a>
         <a class="grid__item" href="#preview-4">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/war_of_bands.jpg" alt="Some image" />
-                <h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="5k">5k</span></h3>
-                <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">War of Bands</span></h4>
+                <img class="box__img" src="img/torque.jpg" alt="Some image" />
+                <h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="70k">70k</span></h3>
+                <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">TORQUE</span></h4>
                 <p class="box__content">"Call it a hurricane or call it freedom, Frank"</p>
             </div>
         </a>
         <a class="grid__item" href="#preview-5">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/pair_on_stage.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="4k">4k</span></h3>
-                <h4 class="box__text box__text--bottom"><span class="box__text-inner">Pair on Stage</span></h4>
+                <img class="box__img" src="img/harmony.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="25k">25k</span></h3>
+                <h4 class="box__text box__text--bottom"><span class="box__text-inner">HARMONY</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-6">
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/capriccio.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Red">9k</span></h3>
-                <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Capriccio</span></h4>
+                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="9k">9k</span></h3>
+                <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">CAPRICCIO</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-7">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/rapping.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="5k">5k</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Rapping</span></h4>
+                <img class="box__img" src="img/rap_id.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="15k">15k</span></h3>
+                <h4 class="box__text"><span class="box__text-inner">RAP-ID</span></h4>
                 <p class="box__content">"Love stronger, stranger! Love stronger."</p>
             </div>
         </a>
@@ -93,8 +93,8 @@
         <div class="box">
             <div class="box__shadow"></div>
             <img class="box__img box__img--original" src="img/original/Solo Singing(Indian).jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Solo Singing(Indian)</span></h4>
+            <h3 class="box__title"><span class="box__title-inner">0K</span></h3>
+            <h4 class="box__text"><span class="box__text-inner">SAAZ(Solo Indian)</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
         <div class="overlay__content">
@@ -108,8 +108,8 @@
         <div class="box">
             <div class="box__shadow"></div>
             <img class="box__img box__img--original" src="img/original/Solo Singing(Western).jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
-            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Singing(Western)</span></h4>
+            <h3 class="box__title"><span class="box__title-inner">0K</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">ADAGIO(SOLO Western)</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -121,9 +121,9 @@
     <div class="overlay__item" id="preview-3">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Solo Instrumental.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
-            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Instrumental</span></h4>
+            <img class="box__img box__img--original" src="img/original/euphony.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">15k</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">EUPHONY</span></h4>
             <div class="box__deco box__deco--top">&#10153;</div>
         </div>
         <div class="overlay__content">
@@ -136,9 +136,9 @@
     <div class="overlay__item" id="preview-4">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/War of Bands.jpg" alt="Some image" />
-            <h3 class="box__title box__title--bottom"><span class="box__title-inner">5k</span></h3>
-            <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">War of Bands</span></h4>
+            <img class="box__img box__img--original" src="img/original/torque.jpg" alt="Some image" />
+            <h3 class="box__title box__title--bottom"><span class="box__title-inner">70k</span></h3>
+            <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">TORQUE</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -150,9 +150,9 @@
     <div class="overlay__item" id="preview-5">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Pair on Stage.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">4k</span></h3>
-            <h4 class="box__text box__text--bottom"><span class="box__text-inner">Pair on Stage</span></h4>
+            <img class="box__img box__img--original" src="img/original/harmony.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">25k</span></h3>
+            <h4 class="box__text box__text--bottom"><span class="box__text-inner">HARMONY</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -164,9 +164,9 @@
     <div class="overlay__item" id="preview-6">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Capriccio.jpg" alt="Some image" />
+            <img class="box__img box__img--original" src="img/original/capriccio.jpg" alt="Some image" />
             <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">9k</span></h3>
-            <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Capriccio</span></h4>
+            <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">CAPRICCIO</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -178,9 +178,9 @@
     <div class="overlay__item" id="preview-7">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Rapping.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">5k</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Rapping</span></h4>
+            <img class="box__img box__img--original" src="img/original/rap_id.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">15k</span></h3>
+            <h4 class="box__text"><span class="box__text-inner">RAP-ID</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
