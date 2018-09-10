@@ -20,7 +20,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/nukkad.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="5K">5K</span></h3>
+                <h3 class="box__title"><span class="box__title-inner" data-hover="80K">80K</span></h3>
                 <h4 class="box__text"><span class="box__text-inner">Nukkad</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
@@ -37,9 +37,9 @@
         <a class="grid__item" href="#preview-2">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/stage_play.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Stage Play</span></h4>
+                <img class="box__img" src="img/yatharth.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="80K">80K</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Yatharth(Stage)</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-3">
@@ -68,23 +68,6 @@
                 <h4 class="box__text box__text--bottom"><span class="box__text-inner">Script Writing Competition</span></h4>
             </div>
         </a>
-        <a class="grid__item" href="#preview-6">
-            <div class="box">
-                <div class="box__shadow"></div>
-                <img class="box__img" src="img/it_iga.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Red">9k</span></h3>
-                <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Improvisational theater / Improv Group Act</span></h4>
-            </div>
-        </a>
-        <a class="grid__item" href="#preview-7">
-            <div class="box">
-                <div class="box__shadow"></div>
-                <img class="box__img" src="img/vines.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="5k">5k</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Vines</span></h4>
-                <p class="box__content">"Love stronger, stranger! Love stronger."</p>
-            </div>
-        </a>
     </div>
 </div>
 <div class="overlay">
@@ -92,8 +75,8 @@
     <div class="overlay__item" id="preview-1">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Nukkad.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
+            <img class="box__img box__img--original" src="img/original/nukkad.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">80K</span></h3>
             <h4 class="box__text"><span class="box__text-inner">Nukkad</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
@@ -107,8 +90,8 @@
     <div class="overlay__item" id="preview-2">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Stage Play.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>Stage Play</span></h4>
+            <img class="box__img box__img--original" src="img/original/yatharth.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">80K</span></h3>Yatharth(Stage)</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -156,34 +139,6 @@
         <div class="overlay__content">
             <div class="myBtn">
                 <a href="register.php?event=Script Writing Competition" data-title="Register"></a>
-            </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
-        </div>
-    </div>
-    <div class="overlay__item" id="preview-6">
-        <div class="box">
-            <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Improvisational theater/Improv Group Act.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">9k</span></h3>
-            <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Improvisational theater/Improv Group Act</span></h4>
-        </div>
-        <div class="overlay__content">
-            <div class="myBtn">
-                <a href="register.php?event=Improvisational theater/Improv Group Act" data-title="Register"></a>
-            </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
-        </div>
-    </div>
-    <div class="overlay__item" id="preview-7">
-        <div class="box">
-            <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Vines.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">5k</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Vines</span></h4>
-        </div>
-        <div class="overlay__content">
-            <div class="myBtn">
-                <a href="register.php?event=Vines" data-title="Register"></a>
             </div>
             <p> It's time the tale were told of how you took a child and you made him old.</p>
         </div>
