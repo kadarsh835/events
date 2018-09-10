@@ -16,9 +16,9 @@
         <a class="grid__item" href="#preview-1">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/western_dance_group.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Western Dance - Group</span></h4>
+                <img class="box__img" src="img/calypso.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="80K">80K</span></h3>
+                <h4 class="box__text"><span class="box__text-inner">CALYPSO(Western Dance - Group)</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
             </div>
@@ -34,17 +34,17 @@
         <a class="grid__item" href="#preview-2">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/folk_dance_group.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance - Group</span></h4>
+                <img class="box__img" src="img/tarang.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="70K">70K</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">TARANG(Folk Dance - Group)</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-3">
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/solo_dance.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Dance</span></h4>
+                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="18k">18k</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">JUNOON(Solo Dance)</span></h4>
                 <div class="box__deco box__deco--top">&#10153;</div>
             </div>
         </a>
@@ -60,26 +60,17 @@
         <a class="grid__item" href="#preview-5">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/street_battle.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="4k">4k</span></h3>
-                <h4 class="box__text box__text--bottom"><span class="box__text-inner">Street Battle</span></h4>
+                <img class="box__img" src="img/smack_that.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="25k">25k</span></h3>
+                <h4 class="box__text box__text--bottom"><span class="box__text-inner">SMACK THAT(Street Battle)</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-6">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/Groove-Z.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Red">9k</span></h3>
-                <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Groove-Z</span></h4>
-            </div>
-        </a>
-        <a class="grid__item" href="#preview-7">
-            <div class="box">
-                <div class="box__shadow"></div>
-                <img class="box__img" src="img/rapping.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="5k">5k</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Rapping</span></h4>
-                <p class="box__content">"Love stronger, stranger! Love stronger."</p>
+                <img class="box__img" src="img/groove_z.jpg" alt="Some image" />
+                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="22k">22k</span></h3>
+                <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Groove-Z(Online Dancing)</span></h4>
             </div>
         </a>
     </div>
@@ -89,14 +80,14 @@
     <div class="overlay__item" id="preview-1">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Western Dance - Group.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Western Dance - Group</span></h4>
+            <img class="box__img box__img--original" src="img/original/calypso.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">80K</span></h3>
+            <h4 class="box__text"><span class="box__text-inner">CALYPSO(Western Dance - Group)</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
-                <a href="register.php?event=Western Dance - Group" data-title="Register"></a>
+                <a href="register.php?event=CALYPSO(Western Dance - Group)" data-title="Register"></a>
             </div>
             <p> It's time the tale were told of how you took a child and you made him old.</p>
         </div>
@@ -104,9 +95,9 @@
     <div class="overlay__item" id="preview-2">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Folk Dance - Group.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
-            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Folk Dance - Group</span></h4>
+            <img class="box__img box__img--original" src="img/original/tarang.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">70K</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">TARANG(Folk Dance - Group)</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -118,9 +109,9 @@
     <div class="overlay__item" id="preview-3">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Solo Dance.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
-            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Solo Dance</span></h4>
+            <img class="box__img box__img--original" src="img/original/solo_dance.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">18k</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">JUNOON(Solo Dance)</span></h4>
             <div class="box__deco box__deco--top">&#10153;</div>
         </div>
         <div class="overlay__content">
@@ -147,9 +138,9 @@
     <div class="overlay__item" id="preview-5">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Street Battle.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">4k</span></h3>
-            <h4 class="box__text box__text--bottom"><span class="box__text-inner">Street Battle</span></h4>
+            <img class="box__img box__img--original" src="img/original/smack_that.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">25k</span></h3>
+            <h4 class="box__text box__text--bottom"><span class="box__text-inner">SMACK THAT(Street Battle)</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -161,27 +152,13 @@
     <div class="overlay__item" id="preview-6">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Groove-Z.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">9k</span></h3>
-            <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Groove-Z</span></h4>
+            <img class="box__img box__img--original" src="img/original/groove_z.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">22k</span></h3>
+            <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Groove-Z(Online Dancing)</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
                 <a href="register.php?event=Groove-Z" data-title="Register"></a>
-            </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
-        </div>
-    </div>
-    <div class="overlay__item" id="preview-7">
-        <div class="box">
-            <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Rapping.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">5k</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Rapping</span></h4>
-        </div>
-        <div class="overlay__content">
-            <div class="myBtn">
-                <a href="register.php?event=Rapping" data-title="Register"></a>
             </div>
             <p> It's time the tale were told of how you took a child and you made him old.</p>
         </div>
