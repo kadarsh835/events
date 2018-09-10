@@ -19,8 +19,8 @@
         <a class="grid__item" href="#preview-1">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/csgo.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
+                <img class="box__img" src="img/cs_go.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="35K">35K</span></h3>
                 <h4 class="box__text"><span class="box__text-inner">CS-Go</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
@@ -38,7 +38,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/dota.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
+                <h3 class="box__title"><span class="box__title-inner" data-hover="to be decided soon">to be decided soon</span></h3>
                 <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Dota</span></h4>
             </div>
         </a>
@@ -46,7 +46,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/fifa.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
+                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="15k">15k</span></h3>
                 <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fifa</span></h4>
                 <div class="box__deco box__deco--top">&#10153;</div>
             </div>
@@ -58,8 +58,8 @@
     <div class="overlay__item" id="preview-1">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/CS-Go.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
+            <img class="box__img box__img--original" src="img/original/cs_go.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">35K</span></h3>
             <h4 class="box__text"><span class="box__text-inner">CS-Go</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
@@ -73,8 +73,8 @@
     <div class="overlay__item" id="preview-2">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Dota.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
+            <img class="box__img box__img--original" src="img/original/dota.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">to be decided soon</span></h3>
             <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Dota</span></h4>
         </div>
         <div class="overlay__content">
@@ -87,8 +87,8 @@
     <div class="overlay__item" id="preview-3">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Fifa.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
+            <img class="box__img box__img--original" src="img/original/fifa.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">15</span></h3>
             <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fifa</span></h4>
             <div class="box__deco box__deco--top">&#10153;</div>
         </div>

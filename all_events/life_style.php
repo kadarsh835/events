@@ -19,8 +19,8 @@
         <a class="grid__item" href="#preview-1">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/mr_ms_zeitgeist.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
+                <img class="box__img" src="img/mrms_zeitgeist.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="60K">60K</span></h3>
                 <h4 class="box__text"><span class="box__text-inner">Mr & Ms Zeitgeist</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
@@ -37,9 +37,9 @@
         <a class="grid__item" href="#preview-2">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/laskara.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
-                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Laskara</span></h4>
+                <img class="box__img" src="img/lashkara.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="80K">80K</span></h3>
+                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Lashkara</span></h4>
             </div>
         </a>
     </div>
@@ -49,8 +49,8 @@
     <div class="overlay__item" id="preview-1">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Mr & Ms Zeitgeist.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
+            <img class="box__img box__img--original" src="img/original/mrms_zeitgeist.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">60K</span></h3>
             <h4 class="box__text"><span class="box__text-inner">Mr & Ms Zeitgeist</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
@@ -64,9 +64,9 @@
     <div class="overlay__item" id="preview-2">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Laskara.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
-            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Laskara</span></h4>
+            <img class="box__img box__img--original" src="img/original/lashkara.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">80K</span></h3>
+            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Lashkara</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
