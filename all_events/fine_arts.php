@@ -20,7 +20,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/wall_graffiti.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="22K">22K</span></h3>
+                <h3 class="box__title"><span class="box__title-inner" data-hover="20K">20K</span></h3>
                 <h4 class="box__text"><span class="box__text-inner">Wall Graffiti</span></h4>
                 <div class="box__deco">&#10014;</div>
                 <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
@@ -38,7 +38,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/on_the_spot.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="10K">10K</span></h3>
+                <h3 class="box__title"><span class="box__title-inner" data-hover="14K">14K</span></h3>
                 <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">On the Spot</span></h4>
             </div>
         </a>
@@ -46,7 +46,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/face_painting.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="10k">10k</span></h3>
+                <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="16k">16k</span></h3>
                 <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Face Painting</span></h4>
                 <div class="box__deco box__deco--top">&#10153;</div>
             </div>
@@ -55,8 +55,8 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/rangoli.jpg" alt="Some image" />
-                <h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="5k">5k</span></h3>
-                <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">War of Bands</span></h4>
+                <h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="20k">20k</span></h3>
+                <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Rangoli</span></h4>
                 <p class="box__content">"Call it a hurricane or call it freedom, Frank"</p>
             </div>
         </a>
@@ -64,7 +64,7 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/3_harmony.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="4k">4k</span></h3>
+                <h3 class="box__title"><span class="box__title-inner" data-hover="14k">14k</span></h3>
                 <h4 class="box__text box__text--bottom"><span class="box__text-inner">3 Harmony</span></h4>
             </div>
         </a>
@@ -72,16 +72,16 @@
             <div class="box">
                 <div class="box__shadow"></div>
                 <img class="box__img" src="img/poster_designing.jpg" alt="Some image" />
-                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Red">9k</span></h3>
+                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="16k">16k</span></h3>
                 <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Poster Designing</span></h4>
             </div>
         </a>
         <a class="grid__item" href="#preview-7">
             <div class="box">
                 <div class="box__shadow"></div>
-                <img class="box__img" src="img/costume_designing.jpg" alt="Some image" />
-                <h3 class="box__title"><span class="box__title-inner" data-hover="5k">5k</span></h3>
-                <h4 class="box__text"><span class="box__text-inner">Costume Designing</span></h4>
+                <img class="box__img" src="img/costumier.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner" data-hover="20k">20k</span></h3>
+                <h4 class="box__text"><span class="box__text-inner">Costumier</span></h4>
                 <p class="box__content">"Love stronger, stranger! Love stronger."</p>
             </div>
         </a>
@@ -92,8 +92,8 @@
     <div class="overlay__item" id="preview-1">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Wall Graffiti.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">22K</span></h3>
+            <img class="box__img box__img--original" src="img/original/wall_graffiti.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">20K</span></h3>
             <h4 class="box__text"><span class="box__text-inner">Wall Graffiti</span></h4>
             <div class="box__deco">&#10014;</div>
         </div>
@@ -107,8 +107,8 @@
     <div class="overlay__item" id="preview-2">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/On the Spot.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">10K</span></h3>
+            <img class="box__img box__img--original" src="img/original/on_the_spot.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">14K</span></h3>
             <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">On the Spot</span></h4>
         </div>
         <div class="overlay__content">
@@ -121,8 +121,8 @@
     <div class="overlay__item" id="preview-3">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Face Painting.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">10k</span></h3>
+            <img class="box__img box__img--original" src="img/original/face_painting.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">16k</span></h3>
             <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Face Painting</span></h4>
             <div class="box__deco box__deco--top">&#10153;</div>
         </div>
@@ -136,9 +136,9 @@
     <div class="overlay__item" id="preview-4">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/War of Bands.jpg" alt="Some image" />
-            <h3 class="box__title box__title--bottom"><span class="box__title-inner">5k</span></h3>
-            <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">War of Bands</span></h4>
+            <img class="box__img box__img--original" src="img/original/rangoli.jpg" alt="Some image" />
+            <h3 class="box__title box__title--bottom"><span class="box__title-inner">20k</span></h3>
+            <h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Rangoli</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
@@ -150,8 +150,8 @@
     <div class="overlay__item" id="preview-5">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/3 Harmony.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">4k</span></h3>
+            <img class="box__img box__img--original" src="img/original/3_harmony.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">14k</span></h3>
             <h4 class="box__text box__text--bottom"><span class="box__text-inner">3 Harmony</span></h4>
         </div>
         <div class="overlay__content">
@@ -164,8 +164,8 @@
     <div class="overlay__item" id="preview-6">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Poster Designing.jpg" alt="Some image" />
-            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">9k</span></h3>
+            <img class="box__img box__img--original" src="img/original/poster_designing.jpg" alt="Some image" />
+            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">16k</span></h3>
             <h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Poster Designing</span></h4>
         </div>
         <div class="overlay__content">
@@ -178,9 +178,9 @@
     <div class="overlay__item" id="preview-7">
         <div class="box">
             <div class="box__shadow"></div>
-            <img class="box__img box__img--original" src="img/original/Costume Designing.jpg" alt="Some image" />
-            <h3 class="box__title"><span class="box__title-inner">5k</span></h3>
-            <h4 class="box__text"><span class="box__text-inner">Costume Designing</span></h4>
+            <img class="box__img box__img--original" src="img/original/costumier.jpg" alt="Some image" />
+            <h3 class="box__title"><span class="box__title-inner">20k</span></h3>
+            <h4 class="box__text"><span class="box__text-inner">Costumier</span></h4>
         </div>
         <div class="overlay__content">
             <div class="myBtn">
