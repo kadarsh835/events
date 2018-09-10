@@ -89,7 +89,9 @@
             <div class="myBtn">
                 <a href="register.php?event=CALYPSO(Western Dance - Group)" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>You need attitude, you need classy moves but above all you need raging fire in your heart to rock the stage. Synchronise your body to the beats and embrace the music. Stir up the audience with hip hop, salsa and break dance.<br>
+Grab your cowboy hat, saddle up and live your dream!
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-2">
@@ -103,7 +105,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Folk Dance - Group" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>India is a country reflecting UNITY IN DIVERSITY. A land of diverse culture and tradition. A place where everyone celebrate in their own traditional way whether it be Bhangra, Ghoomar or Kathak.<br>
+So let’s take a walk through the various folk dances from various parts of India, and celebrate our country’s diverse visual poetry!
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-3">
@@ -118,7 +122,10 @@
             <div class="myBtn">
                 <a href="register.php?event=Solo Dance" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>“Work like you don’t need the money, love like you’ve never been hurt and DANCE LIKE NOBODY’S WATCHING.” <br>
+This is what you mostly do when you are alone.<br>
+With souls made of flames we all are just stars that have people names. So go grab your dance sneakers, turn up the music and let your body move to the beats.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-4">
@@ -132,7 +139,7 @@
             <div class="myBtn">
                 <a href="register.php?event=Duet Dance" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>“Everything in the universe has a rhythm and everything dances.” Ever felt a magical connection with someone : the dexterity of moves you share with that person. For this insanity you should be as crazy as your dance partner. Sync with your partner and let the crowd cheer for your fluid moves.</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-5">
@@ -146,7 +153,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Street Battle" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>“If movements were sparks every dancer would desire to light up in flames.”<br>
+Some battles are not fought with lethal weapons. These battles involves lethal moves : POP-LOCK-BREAK. The tension on the dance floor sparks a clash between the groups. Showcase your moves and show them all who’s the REAL BOSS.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-6">
@@ -160,7 +169,7 @@
             <div class="myBtn">
                 <a href="register.php?event=Groove-Z" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Will be updated soon.</p>
         </div>
     </div>
     <button class="overlay__close"><svg class="icon icon--cross">

@@ -84,7 +84,7 @@
             <div class="myBtn">
                 <a href="register.php?event=Nukkad" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Theatre has the power to send across a message to its audience, and to mould their perspective.  A street play is like a mirror to the society. It allows them to reflect on what they really are. And this mirror does not need a stage, a costume or a background. All it takes is will power, to go out there, and try to change the world in your own way.</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-2">
@@ -97,7 +97,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Stage Play" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>“All the world’s a stage, and all the men and women are merely players”-William Shakespeare<br>
+Theatre is a strange, yet wonderful form of art. A stage and a few artists can weave a whole new world. A stage play sucks in its audience. It takes them on a roller coaster ride of emotions and allows them to feel the way it’s characters feel.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-3">
@@ -112,7 +114,8 @@
             <div class="myBtn">
                 <a href="register.php?event=Mime" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>An actor has 3 weapons in his arsenal-his expressions, his body language and his words. Mime is a form of theatre, in which the artist conveys the story and the emotions without the use of words. All he has is a stage, and well, himself to captivate the audience with his performance.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-4">
@@ -126,7 +129,8 @@
             <div class="myBtn">
                 <a href="register.php?event=Mono Acting" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>An artist and a stage, sometimes that is all that it takes. Sometimes, that is enough to express and experience. Sorrow, happiness, anger, worry, pride, remorse………the list is long. Watch, as just one man portrays all these feelings, and takes you through a journey. The journey of his life.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-5">
@@ -140,7 +144,7 @@
             <div class="myBtn">
                 <a href="register.php?event=Script Writing Competition" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Will be updated soon</p>
         </div>
     </div>
     <button class="overlay__close"><svg class="icon icon--cross">

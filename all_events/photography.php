@@ -114,7 +114,13 @@
             <div class="myBtn">
                 <a href="register.php?event=Pic of the Day" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>I saw something today<br>
+A story<br>
+I failed to put that into words<br>
+I clicked a photograph…..<br>
+This zeitgeist take a image , freeze the moment , show how rich reality is truly.<br>
+Show us your story . we love your profoundness.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-3">
@@ -129,7 +135,10 @@
             <div class="myBtn">
                 <a href="register.php?event=Trailer Making" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Trailer is a piece of art. Everyone sees what they want to see. Essence of the trailer lies in its subtlety.<br>
+This zeitgeist, show us your profound brevity of expression. Compete and learn with professionals.
+Challenge yourself to create a thrilling trailer that can actually leave audience spellbound . Submit us your trailer online.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-4">
@@ -143,7 +152,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Shutter Up" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>“Great photography is about depth of feeling , not depth of field”. Zietgiest’18 provides all budding<br>
+photographers to showcase their talent through online photography competition. Play with the camera and create an image that moves one’s soul. Send us your entries online corresponding to 3 themes.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-5">

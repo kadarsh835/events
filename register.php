@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-6 style-2">
 
-                <?php $login=1; $solo=0;
+                <?php $login=1; $solo=1;
 	if($login){
 		if(!$solo){
 			echo '<form action="#" method="POST" class="signupForm" name="signupform">

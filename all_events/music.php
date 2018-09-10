@@ -101,7 +101,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Solo Singing(Indian)" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Of all the music instruments, the human voice is the most beautiful, for it is made by God.<br>
+So have u got that charm to move people by your melodious voice?  Can u gather crowd with your songs. If yes, then the stage is waiting for you.<br>
+Zeitgeist provides you with the opportunity to unleash the singer within you, competing with other singers and showcasing your talent.</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-2">
@@ -115,7 +117,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Solo Singing(Western)" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Of all the music instruments, the human voice is the most beautiful, for it is made by God.<br>
+So have u got that charm to move people by your melodious voice?  Can u gather crowd with your songs. If yes, then the stage is waiting for you.<br>
+Zeitgeist provides you with the opportunity to unleash the singer within you, competing with other singers and showcasing your talent.</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-3">
@@ -130,7 +134,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Solo Instrumental" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Music is a more potent instrument than any other for education, because rhythm and harmony find their way into the inward places of the soul.<br>
+Be it Guitar, Drums, Keyboard or any other instrument, create the rhythm through your instrument and make the aura musical.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-4">
@@ -144,7 +150,8 @@
             <div class="myBtn">
                 <a href="register.php?event=War of Bands" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>With massive enthusiasm and fearsome competition, this event brings out the best in its participants striving for glory. If you have the band that just can’t lose and have hunger for more, then come and perform against the most formidable bands. Zeitgeist welcomes you to War of Bands, an arena to battle against bands, and make the crowd forget themselves in your performance.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-5">
@@ -158,7 +165,9 @@
             <div class="myBtn">
                 <a href="register.php?event=Pair on Stage" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Well a single person can do wonders, then the kind of impact created by a Combination of two will be impeccable.<br>
+The Stage is Yours, Do whatever you want (be it singing, playing instruments or any such sort of combination) , you just need to create that musical environment that mesmerizes the audience.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-6">
@@ -172,7 +181,10 @@
             <div class="myBtn">
                 <a href="register.php?event=Capriccio" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.<br>
+Apart from the solo singing event, Zeitgeist also provides an Online platform where budding singers can upload their videos , and maybe you get famous, because social media has immense power to provide success to talented people.<br>
+Don’t miss this opportunity, this is the chance that you’ve been looking for.
+</p>
         </div>
     </div>
     <div class="overlay__item" id="preview-7">
@@ -186,7 +198,10 @@
             <div class="myBtn">
                 <a href="register.php?event=Rapping" data-title="Register"></a>
             </div>
-            <p> It's time the tale were told of how you took a child and you made him old.</p>
+            <p>If you’re really a rapper, you can’t stop rapping.<br>
+Get that Eminem (if you love to do English Raps) or Badshah (if you love to do Hindi Raps) out of you and upload your videos.<br>
+Boots and Cats and Boots and Cats…, well that’s the way how beatboxers converse with their audiences, and if you are one of them, then box that beat.
+</p>
         </div>
     </div>
     <button class="overlay__close"><svg class="icon icon--cross">
